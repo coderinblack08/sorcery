@@ -4,8 +4,8 @@ Usually, I just through everything into `lib`, `pages`, and `components`; but fo
 
 ```
 .
+├── dbschema/                    # EdgeDB
 ├── src/
-│   ├── dbschema/                # EdgeDB
 │   ├── pages/                   # Next.js pages
 │   ├── pages/                   # Next.js pages
 │   ├── server/                  # tRPC context and routers
