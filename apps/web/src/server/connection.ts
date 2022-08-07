@@ -13,7 +13,7 @@ export const connectionConfig: Partial<MikroORMOptions<MongoDriver>> = {
   debug: true,
 };
 
-const getORM = async () => {
+export const getORM = async () => {
   if (!global.__MikroORM__) {
     global.__MikroORM__ = await MikroORM.init<MongoDriver>(connectionConfig);
   }
