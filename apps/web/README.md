@@ -5,9 +5,14 @@ Usually, I just through everything into `lib`, `pages`, and `components`; but fo
 ```
 .
 ├── src/
+│   ├── prisma/                  # Prisma schema and migrations
 │   ├── pages/                   # Next.js pages
 │   ├── pages/                   # Next.js pages
 │   ├── server/                  # tRPC context and routers
+│   │   ├── routers/
+│   │   ├── connection.ts
+│   │   ├── context.ts
+│   │   ├── createRouter.ts
 │   ├── features/                # Group hooks, components, and services (interface with API) by feature
 │   │   ├── ...
 │   │   │   ├── hooks/

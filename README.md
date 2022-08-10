@@ -1,8 +1,8 @@
-# 🏝 Pergola
+# 🧙‍♂️ Sorcery
 
-> "Yet Another Digital Garden"
+> "Yet Another Digital Garden, But Magical"
 
-Pergola aims to be a easier, more lightweight alternative to Obsidian (I guess).
+Sorcery aims to be a easier, more lightweight alternative to Obsidian.
 Currently, the goal is support both a self-hosted and deployed version.
 
 ## Installation
