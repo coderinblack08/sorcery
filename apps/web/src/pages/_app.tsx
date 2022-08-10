@@ -2,10 +2,11 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { withTRPC } from "@trpc/next";
 import { AppRouter } from "~/server/routers/_app";
 import type { AppProps } from "next/app";
+import { defaultTheme } from "../lib/chakraTheme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={defaultTheme}>
       <Component {...pageProps} />
     </ChakraProvider>
   );

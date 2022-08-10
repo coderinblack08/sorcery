@@ -18,7 +18,7 @@ Usually, I just through everything into `lib`, `pages`, and `components`; but fo
 │   │   │   ├── hooks/
 │   │   │   ├── components/
 │   │   │   ├── services/
-│   │   │   ├── index.js
+│   │   │   ├── index.tsx
 │   ├── test/                    # Automated tests (alternatively `spec` or `tests`)
 │   ├── lib/                     # Global utilities and configs
 │   ├── hooks/                   # Global hooks

@@ -1,4 +1,4 @@
-# 🧙‍♂️ Sorcery
+# 🪄 Sorcery
 
 > "Yet Another Digital Garden, But Magical"
 
