@@ -1,11 +1,10 @@
 import NextAuth from "next-auth";
-import { MikroOrmAdapter } from "@next-auth/mikro-orm-adapter";
-import { connectionConfig } from "../../../server/connection";
-import { MongoDriver } from "@mikro-orm/mongodb";
 import GitHubProvider from "next-auth/providers/github";
+import { PrismaAdapter } from "@next-auth/prisma-adapter";
+import { prisma } from "../../../server/connection";
 
 export default NextAuth({
-  adapter: MikroOrmAdapter<MongoDriver>(connectionConfig),
+  adapter: PrismaAdapter(prisma),
   providers: [
     GitHubProvider({
       clientId: process.env.GITHUB_ID!,

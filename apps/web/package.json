@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,6 +16,8 @@
     "@mikro-orm/mongo-highlighter": "^1.0.0",
     "@mikro-orm/mongodb": "^5.3.1",
     "@next-auth/mikro-orm-adapter": "^2.0.1",
+    "@next-auth/prisma-adapter": "^1.0.4",
+    "@prisma/client": "^4.2.0",
     "@trpc/client": "^9.26.2",
     "@trpc/next": "^9.26.2",
     "@trpc/react": "^9.26.2",
@@ -38,6 +40,7 @@
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
     "next-transpile-modules": "9.0.0",
+    "prisma": "^4.1.1",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }

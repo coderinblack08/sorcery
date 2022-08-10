@@ -4,7 +4,6 @@ Usually, I just through everything into `lib`, `pages`, and `components`; but fo
 
 ```
 .
-├── dbschema/                    # EdgeDB
 ├── src/
 │   ├── pages/                   # Next.js pages
 │   ├── pages/                   # Next.js pages
@@ -20,7 +19,6 @@ Usually, I just through everything into `lib`, `pages`, and `components`; but fo
 │   ├── hooks/                   # Global hooks
 │   ├── .eslintrc.json           # Config files...
 │   ├── next.config.js
-│   ├── edgedb.toml
 │   ├── tsconfig.json
 │   └── README.md                # Documentation
 ```
